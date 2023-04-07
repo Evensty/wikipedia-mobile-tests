@@ -20,8 +20,9 @@
 <!-- Тест кейсы -->
 
 ### Что проверяют тесты
-1. search articles
-2. add language to language list
+1. Поиск статьи
+2. Проверка искомой статьи в списке
+2. Добавление нового языка
 
 ##### Видеопрохождение теста на эмуляторе
 ![This is an image](images/screencasts/emulator_device.gif)
