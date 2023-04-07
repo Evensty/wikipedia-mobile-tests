@@ -21,11 +21,19 @@
 
 ### Что проверяют тесты
 1. search articles
+2. add language to language list
 
-##### Видео прохождение теста на эмуляторе
-![This is an image](images/screenshots/)
+##### Видеопрохождение теста на эмуляторе
+![This is an image](images/screencasts/emulator_device.gif)
+
+
+##### Видеопрохождение теста на реальном устройстве
+![This is an image](images/screencasts/real_device.gif)
+
+
+
 e
-##### Видео прохождение теста в Browserstack
+##### Видеопрохождение теста в Browserstack
 ![This is an image](images/screenshots/)
 
 
