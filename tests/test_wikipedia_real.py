@@ -7,7 +7,7 @@ from selene.support.shared import browser
 from wikipedia.model import app
 
 
-def test_wikipedia():
+def test_add_new_language():
     with step('skip start screen'):
         app.given_opened()
     with step('add a language'):
