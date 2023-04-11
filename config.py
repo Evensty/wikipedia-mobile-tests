@@ -8,7 +8,7 @@ EnvContext = Literal['emulation', 'real', 'browserstack']
 
 
 class Settings(pydantic.BaseSettings):
-    context: EnvContext = 'real'
+    context: EnvContext = 'browserstack'
 
     platformName: str = None
     platformVersion: str = None
