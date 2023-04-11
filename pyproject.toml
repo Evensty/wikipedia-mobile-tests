@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "mobile end-to-end testing on browserstack with selene + appium + pytest"
 authors = ["Evensty <maxim.veselov11@gmail.com>"]
 license = "MIT"
-packages = [{include = "mobile_tests"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
