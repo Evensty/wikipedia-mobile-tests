@@ -1,4 +1,6 @@
+import allure
 from allure import step
+from allure_commons.types import Severity
 
 from appium.webdriver.common.appiumby import AppiumBy
 from selene import have
@@ -6,7 +8,12 @@ from selene.support.shared import browser
 
 from wikipedia.model import app
 
-
+@allure.title('add language')
+@allure.tag('mobile')
+@allure.label('owner', 'Maxim Veselov')
+@allure.severity(Severity.CRITICAL)
+@allure.feature('Language')
+@allure.story('Wikipedia')
 def test_add_new_language():
     with step('skip start screen'):
         app.given_opened()

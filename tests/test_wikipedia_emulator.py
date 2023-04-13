@@ -1,4 +1,6 @@
+import allure
 from allure import step
+from allure_commons.types import Severity
 
 from appium.webdriver.common.appiumby import AppiumBy
 from selene import have
@@ -7,7 +9,12 @@ from selene.support.shared import browser
 
 from wikipedia.model import app
 
-
+@allure.title('Search title')
+@allure.tag('mobile')
+@allure.label('owner', 'Maxim Veselov')
+@allure.severity(Severity.CRITICAL)
+@allure.feature('Search')
+@allure.story('Wikipedia')
 def test_search_title():
     with step('skip start screen'):
         app.given_opened()
