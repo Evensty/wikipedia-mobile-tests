@@ -7,6 +7,7 @@ from selene.support.shared import browser
 
 from wikipedia.model import app
 
+
 @allure.title('Search title')
 @allure.tag('mobile')
 @allure.label('owner', 'Maxim Veselov')
@@ -26,6 +27,4 @@ def test_check_search_result():
     with step('Back to search screen'):
         browser.element((AppiumBy.ID, 'org.wikipedia.alpha:id/view_wiki_error_button')).click()
         browser.element((AppiumBy.CLASS_NAME, 'android.widget.TextView')).should(have.text('Search Wikipedia'))
-
-
 
